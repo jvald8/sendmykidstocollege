@@ -1,0 +1,87 @@
+.donate-button-styling {
+	background:#2d81c5;
+	color: #fff !important;
+	text-decoration: none;
+	font-family: Verdana,sans-serif;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px 38px 15px 38px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	box-shadow: 0 1px 0 0 #1f5a89;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.amazonProductTitle {
+	margin: 0 20px;
+}
+
+.amazonProduct {
+	text-align: center;
+	padding-top: 10px;
+	height: 440px;
+}
+
+.amazonProductDescription {
+	height:100px;
+}
+
+.amazonProductsImage {
+	border:none !important; 
+	margin:0px !important;
+}
+
+.text-logo-nav {
+	height: 50px;
+    position: relative;
+    bottom: 9px;
+}
+
+body {
+	font-family: 'lato';
+}
+
+.navbar {
+	min-height: 70px;
+	font-family: 'lato';
+	font-size: 16px;
+}
+
+.navbar-links-right {
+	margin-top: 20px;
+    margin-right: 50px;
+}
+
+.navbar-toggle {
+	margin-top: 20px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color:transparent;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.brand-text {
+	/*width: 60%;*/
+	margin-top: 15px;
+}
+
+@media (min-width: 422px) {
+	.small-R6 {
+		display: none !important;
+	}
+}
+
+@media (max-width: 421px) { 
+	.brand-text {
+		display: none !important;
+	}
+	.small-R6 {
+		display: block !important;
+		width: 70%;
+	}
+}
